@@ -14,6 +14,7 @@
 // Returns: A boolean value. True for palindromes, false otherwise.
 bool is_palindrome(std::string str)
 {
+    transform(str.begin(),str.end(),str.begin(),tolower);
     int i =1; int j = str.length()-2;
     if(str.length() == 1)
     {
