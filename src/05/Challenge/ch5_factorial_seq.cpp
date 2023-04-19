@@ -14,9 +14,22 @@
 // Arguments:
 //           n: The argument of the last factorial to print.
 // Returns: n!, the last calculated factorial.
-int print_factorials(int n){
+int get_factorial(int ip_num)
+{
+  if(ip_num == 0)
+  {return 1;}
+  
+  return ip_num * get_factorial(ip_num-1);
+
+}
+
+int print_factorials(int n)
+{
     
-    // Write your code here
+    for(int i =0; i <= n; i++)
+    {
+        std::cout<< get_factorial(i)<<" ";
+    }
 
     return 0;
 }
