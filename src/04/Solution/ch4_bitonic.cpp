@@ -76,7 +76,7 @@ bool is_bitonic(const std::vector<int> &v){
 int main(){
     // Uncomment one of these lines and make sure you get the result at the right. 
     
-    std::vector<int> myvec = {1, 2, 5, 4, 3};  // Yes
+    //std::vector<int> myvec = {1, 2, 5, 4, 3};  // Yes
     // std::vector<int> myvec = {1, 1, 1, 1, 1};  // Yes
     // std::vector<int> myvec = {3, 4, 5, 2, 2};  // Yes
     // std::vector<int> myvec = {3, 4, 5, 2, 4};  // No
@@ -85,7 +85,7 @@ int main(){
     // std::vector<int> myvec = {5, 4, 6, 2, 6};  // No
     // std::vector<int> myvec = {5, 4, 3, 2, 1};  // Yes
     // std::vector<int> myvec = {5, 4, 3, 2, 6};  // Yes
-    // std::vector<int> myvec = {5, 4, 6, 5, 4};  // No
+    //  std::vector<int> myvec = {5, 4, 6, 5, 4};  // No
     // std::vector<int> myvec = {5, 4, 6, 5, 5};  // Yes
 
     std::cout << (is_bitonic(myvec) == true ? "Yes, it is bitonic." : "No, it is not bitonic.");
